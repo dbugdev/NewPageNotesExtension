@@ -1,0 +1,13 @@
+{
+  "name": "My Notes",
+  "description": "Best Extension to keep notes in new tab",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "icons": {
+    "16": "./images/notes-16_x_16.png",
+    "32": "./images/notes-32_x_32.png",
+    "48": "./images/notes-48_x_48.png",
+    "128": "./images/notes-128_x_128.png"
+  },
+  "chrome_url_overrides": { "newtab": "index.html" }
+}
